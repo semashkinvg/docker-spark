@@ -1,6 +1,6 @@
-FROM alpine:3.10
+FROM python:3.7.7-alpine3.10
 
-LABEL maintainer="Gezim Sejdiu <g.sejdiu@gmail.com>, Giannis Mouchakis <gmouchakis@gmail.com>"
+LABEL maintainer="Vladimir Semashkin <semashkin.vg@gmail.com>"
 
 ENV ENABLE_INIT_DAEMON true
 ENV INIT_DAEMON_BASE_URI http://identifier/init-daemon

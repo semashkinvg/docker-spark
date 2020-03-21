@@ -1,6 +1,6 @@
-FROM bde2020/spark-base:2.4.5-hadoop2.7
+FROM bde2020/spark-base:2.4.5-hadoop2.7-Python3.7.0
 
-LABEL maintainer="Gezim Sejdiu <g.sejdiu@gmail.com>, Giannis Mouchakis <gmouchakis@gmail.com>"
+LABEL maintainer="Vladimir Semashkin <semashkin.vg@gmail.com"
 
 COPY master.sh /
 
